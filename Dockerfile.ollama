@@ -1,0 +1,4 @@
+FROM ollama/ollama:latest
+
+# Set the entrypoint to ensure the server starts
+ENTRYPOINT ["ollama", "serve"]
